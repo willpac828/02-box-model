@@ -73,7 +73,7 @@ span {
   /*a bit delayed in terms of expanding to center */
 }
 
-.profiles__item-1 {
+.profiles__item {
   width: 20em;
   border: solid 1px grey;
   border-radius: 2%;
@@ -82,9 +82,11 @@ span {
   display:inline-block;
   align: center;
 
+
 }
 
 .user {
+  border-bottom:
 
   border: solid 1px grey;
 }
@@ -105,11 +107,14 @@ span {
 .user__username {
   font-weight: lighter;
   color: grey;
-  font-size: .75rem;
+  font-size: 1rem;
 }
 
-.projects__1 {
-/*  float: right; */
+.project-item {
+  /*  float: right; */
+  border-top: solid 1px grey;
+  /*background: green;*/
+  padding-left: 1rem;
 }
 
 
