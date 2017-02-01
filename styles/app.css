@@ -2,54 +2,40 @@ body {
   /* All backgrounds to go edge-to edge */
   margin: 0;
   font-family: sans-serif;
-
 }
 
 ul {
   padding-left: 0;
   list-style: none;
-
 }
 
 * {
   box-sizing: border-box;
 }
 
-h1 {
-  display:inline-block;
+img {
+  max-width: 100%;
 }
-
-span {
-  display:inline-block;
-}
-
-
 
 .header {
   background-color: #4fbedb;
   overflow: auto;
   /*How to curve top edges? */
-
-
 }
 
 .header__right {
   float: right;
   margin-right: 8em;
   margin-top: 2em;
-  display:inline-block;
+  display: inline-block;
   color: white;
 }
-
-
 
 .header__span-1 {
   margin-right: 3em;
 }
 
-.header__span-2 {
-
-}
+.header__span-2 {}
 
 .header__left {
   float: left;
@@ -64,48 +50,48 @@ span {
 
 .profiles {
   align-items: center;
-  max-width: 75em;
+  max-width: 65em;
   margin-left: auto;
   margin-right: auto;
-
   /*a bit delayed in terms of expanding to center */
 }
 
 .profiles__item {
-  width: 20em;
+  width: calc(100% / 3 - 2rem);
   border: solid 1px grey;
   border-radius: 2%;
   overflow: auto;
-  margin: 1em;
-  display:inline-block;
+  margin: 1rem;
   align: center;
-
-
+  float: left;
 }
 
 .user {
-  border-bottom:
-
-  border: solid 1px grey;
+  overflow: auto;
+  padding: 1rem;
 }
+
+.user__image {
+  width: 25%;
+  margin-right: 1rem;
+  float: left;
+  border-radius: 5%;
+}
+
 .user__info {
-  float: right;
-  margin-right: 4rem;
-  margin-top: 1rem;
-
 }
-
-
 .user__name {
   font-weight: bold;
-  font-size: 1rem;
-  font-family: sans-serif;;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  margin: 0;
 }
 
 .user__username {
   font-weight: lighter;
   color: grey;
   font-size: 1rem;
+  margin-top: 0.25rem;
 }
 
 .project-item {
@@ -114,14 +100,12 @@ span {
   /*background: green;*/
   padding: 0 1rem;
   overflow: auto;
-
 }
-
-
 
 .repo {
-  float:left;
+  float: left;
 }
+
 .repo__language {
   float: right;
 }
@@ -135,38 +119,34 @@ span {
   width: .75rem;
 }
 
-.js{
+.js {
   background-color: yellow;
-
 }
 
 .python {
-  background-color:#2663a2;
+  background-color: #2663a2;
 }
 
 .c {
   background-color: #383637;
 }
 
-.html{
+.html {
   background-color: #df4f30;
-
 }
 
 .css {
   background-color: purple;
 }
+
 .java {
   background-color: #7e5f3f;
 }
-.objective__c{
+
+.objective__c {
   background-color: #47a3cb;
 }
 
 .php {
- background-color:#6237bd;
-}
-img {
-  margin: 1em;
-  border-radius: 5%;
+  background-color: #6237bd;
 }
