@@ -28,39 +28,84 @@ span {
 .header {
   background-color: #4fbedb;
   overflow: auto;
+  /*How to curve top edges? */
 
 
 }
 
 .header__right {
   float: right;
+  margin-right: 8em;
+  margin-top: 2em;
   display:inline-block;
+}
+
+.header__right span {
+  color: white;
+
+}
+
+.header__span-1 {
+  margin-right: 3em;
+}
+
+.header__span-2 {
+
 }
 
 .header__left {
   float: left;
   display: inline-block;
+  margin-left: 8em;
+}
+
+.header__left h1 {
+  color: white;
+  font-size: 2rem;
+}
+
+.profiles {
+  align-items: center;
+  max-width: 75em;
+  margin-left: auto;
+  margin-right: auto;
+
+  /*a bit delayed in terms of expanding to center */
 }
 
 .profiles__item-1 {
   width: 20em;
-  border: solid 1px black;
+  border: solid 1px grey;
   border-radius: 2%;
   overflow: auto;
   margin: 1em;
+  display:inline-block;
+  align: center;
+
 }
 
+.user {
+
+  border: solid 1px grey;
+}
 .user__info {
   float: right;
+  margin-right: 4rem;
+  margin-top: 1rem;
+
 }
 
 
 .user__name {
-
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: sans-serif;;
 }
 
 .user__username {
-
+  font-weight: lighter;
+  color: grey;
+  font-size: .75rem;
 }
 
 .projects__1 {
@@ -71,10 +116,10 @@ span {
 
 img {
   margin: 1em;
-
+  border-radius: 5%;
 }
 
-span {
+.projects__2 span {
 
   border-radius: 50%;
   background-color: black;
