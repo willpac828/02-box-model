@@ -20,24 +20,47 @@ img {
 .header {
   background-color: #4fbedb;
   overflow: auto;
+  padding: 1rem;
+
   /*How to curve top edges? */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 70rem;
+
+  margin: auto;
+
 }
 
 .header__right {
   float: right;
   margin-right: 8em;
-  margin-top: 2em;
-  display: inline-block;
+  margin-top: 0;
+
+  padding-top:1.2rem;
   color: white;
+
+  font-size: 1rem;
+
 }
 
 .header__span-1 {
+
   margin-right: 3em;
+  display: inline-block;
+
+
 }
 
-.header__span-2 {}
+.header__span-2 {
+
+  display: inline-block;
+}
 
 .header__left {
+
   float: left;
   display: inline-block;
   margin-left: 8em;
@@ -45,7 +68,7 @@ img {
 
 .header__left h1 {
   color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .profiles {
@@ -64,6 +87,7 @@ img {
   margin: 1rem;
   align: center;
   float: left;
+  min-width: 15rem;
 }
 
 .user {
