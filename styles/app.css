@@ -28,7 +28,7 @@ img {
 .container {
   display: flex;
   justify-content: space-between;
-  max-width: 70rem;
+  max-width: 65rem;
 
   margin: auto;
 
@@ -36,9 +36,9 @@ img {
 
 .header__right {
   float: right;
-  margin-right: 8em;
-  margin-top: 0;
 
+  margin-top: 0;
+  margin-right: 2rem;
   padding-top:1.2rem;
   color: white;
 
@@ -63,7 +63,7 @@ img {
 
   float: left;
   display: inline-block;
-  margin-left: 8em;
+  margin-left: 2rem;
 }
 
 .header__left h1 {
