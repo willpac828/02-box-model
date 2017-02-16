@@ -38,7 +38,7 @@ img {
   float: right;
 
   margin-top: 0;
-  margin-right: 2rem;
+
   padding-top:1.2rem;
   color: white;
 
@@ -63,7 +63,7 @@ img {
 
   float: left;
   display: inline-block;
-  margin-left: 2rem;
+
 }
 
 .header__left h1 {
